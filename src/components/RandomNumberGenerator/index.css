@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border-radius: 10px;
+  background-color: white;
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.paragraph {
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+}
+.button {
+  padding-left: 6px;
+  padding-right: 7px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  border: none;
+  color: white;
+}
+.number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 500;
+}
